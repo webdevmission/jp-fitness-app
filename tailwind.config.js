@@ -2,8 +2,8 @@ module.exports = {
   content: ["./src/index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["poppins", "sans-serif"],
-      serif: ["serif"],
+      mainSans: ["poppins", "sans-serif"],
+      mainSerif: ["serif"],
     },
     colors: {
       "d-dark": "#FBFBFB",

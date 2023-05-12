@@ -1,10 +1,9 @@
 // import { useState } from "react";
-import index from "../global/components/Layout";
+import Dashboard from "../pages/dashboard";
 
-const app ( [
-  {
-    path: "/",
-    element: <App />,
-  },
-]);
+const App = () => {
+  return <Dashboard />;
+};
+
+App();
 export default App;
