@@ -1,14 +1,12 @@
 import DefaultLayout from "../../global/components/DefaultLayout";
-import Greeting from "./components/Title";
+import Greeting from "./components/Greeting";
 
 const Dashboard = () => {
   return (
     <DefaultLayout>
-      <Greeting></Greeting>
+      <Greeting />
     </DefaultLayout>
   );
 };
-
-Dashboard();
 
 export default Dashboard;
