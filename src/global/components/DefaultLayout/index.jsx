@@ -1,5 +1,5 @@
-const DefaultLayout = () => {
-  return <div className="bg-d-medium"></div>;
+const DefaultLayout = ({ children }) => {
+  return <div className="bg-d-medium">{children}</div>;
 };
 
 export default DefaultLayout;
