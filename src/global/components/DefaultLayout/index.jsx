@@ -1,5 +1,5 @@
 const DefaultLayout = ({ children }) => {
-  return <div className="bg-d-dark">{children}</div>;
+  return <section className="bg-d-dark">{children}</section>;
 };
 
 export default DefaultLayout;
