@@ -1,10 +1,26 @@
+import home from "./icons/home.svg";
+import programs from "./icons/programs.svg";
+import user from "./icons/user.svg";
+
 const NavBar = () => {
   return (
-    <nav className="flex w-full justify-between rounded-t-[20px] bg-black/[0.4]">
-      <ul>
-        <li className="">icon</li>
-        <li className="">icon</li>
-        <li className="">icon</li>
+    <nav className="align-center flex h-12 rounded-t-[20px] bg-black/[0.4]">
+      <ul className="flex w-full items-center justify-around">
+        <li className="">
+          <a href="../../pages/dashboard">
+            <img src={home} alt="home" />
+          </a>
+        </li>
+        <li className="">
+          <a href="#">
+            <img src={programs} alt="programs" />
+          </a>
+        </li>
+        <li className="">
+          <a href="#">
+            <img src={user} alt="user" />
+          </a>
+        </li>
       </ul>
     </nav>
   );
