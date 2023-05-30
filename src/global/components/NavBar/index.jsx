@@ -4,7 +4,7 @@ import user from "./icons/user.svg";
 
 const NavBar = () => {
   return (
-    <nav className="align-center flex h-12 rounded-t-[20px] bg-black/[0.4]">
+    <nav className="align-center fixed bottom-0 flex h-12 w-screen rounded-t-[20px] bg-black/[0.4]">
       <ul className="flex w-full items-center justify-around">
         <li className="">
           <a href="../../pages/dashboard">

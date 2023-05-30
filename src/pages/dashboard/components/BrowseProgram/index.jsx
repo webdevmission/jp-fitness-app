@@ -1,6 +1,6 @@
 const BrowseProgram = () => {
   return (
-    <section className="h-[calc(100vh*0.5733)] w-screen bg-d-medium"></section>
+    <section className="mx-4 h-[calc(100vh*0.3439)] w-[calc(100vw-2rem)] rounded-[30px] bg-d-medium"></section>
   );
 };
 
