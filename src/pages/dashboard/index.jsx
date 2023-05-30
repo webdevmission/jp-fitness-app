@@ -2,14 +2,15 @@ import DefaultLayout from "../../global/components/DefaultLayout";
 import Greeting from "./components/Greeting";
 import NavBar from "../../global/components/NavBar";
 import WorkoutHeading from "./components/WorkoutHeading";
-import BrowseProgram from "./components/BrowseProgram";
+import CheckProgram from "./components/CheckProgram";
+import PorgramPreview from "./components/ProgramPreview";
 
 const Dashboard = () => {
   return (
     <DefaultLayout>
       <Greeting />
       <WorkoutHeading />
-      <BrowseProgram />
+      <CheckProgram />
       <NavBar />
     </DefaultLayout>
   );
