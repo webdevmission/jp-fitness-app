@@ -1,4 +1,4 @@
-import DefaultLayout from "../../global/components/DefaultLayout";
+import DashboardLayout from "./components/DashboardLayout";
 import Greeting from "./components/Greeting";
 import NavBar from "../../global/components/NavBar";
 import WorkoutHeading from "./components/WorkoutHeading";
@@ -7,12 +7,12 @@ import PorgramPreview from "./components/ProgramPreview";
 
 const Dashboard = () => {
   return (
-    <DefaultLayout>
+    <DashboardLayout>
       <Greeting />
       <WorkoutHeading />
       <CheckProgram />
       <NavBar />
-    </DefaultLayout>
+    </DashboardLayout>
   );
 };
 
