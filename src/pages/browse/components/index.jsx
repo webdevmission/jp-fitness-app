@@ -1,5 +1,5 @@
-import DefaultLayout from "./components/DefaultLayout";
-import NavBar from "../../global/components/NavBar";
+import DefaultLayout from "../../../global/components/DefaultLayout";
+import NavBar from "../../../global/components/NavBar";
 
 const Browse = () => {
   return (
